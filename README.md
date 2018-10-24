@@ -27,7 +27,7 @@ For details using it see [i18next translation essentials](https://www.i18next.co
 
 ## using i18n-text
 
-Read more at the section web components.
+[Read more](https://github.com/i18next/omi-i18n#i18n-text) at the section web components.
 
 # Web Components
 
