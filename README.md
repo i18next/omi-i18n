@@ -62,10 +62,10 @@ class MyApp extends WeElement {
 
 ### props
 
-## name | description
-
-locale | the language to use (needed for plural handling)
-catalog | JSON containing all translations for details see [i18next translation essentials](https://www.i18next.com/)
+| name | description |
+| ------------- | ------------- |
+| locale | the language to use (needed for plural handling) |
+| catalog | JSON containing all translations for details see [i18next translation essentials](https://www.i18next.com/) |
 
 ## i18n-text
 
@@ -87,14 +87,16 @@ const catalog = {
 
 ### props
 
-## name | default | description
 
-ele | span | the element to render
-key | undefined | the translation key to lookup
-options | undefined | t options see [docs](https://www.i18next.com/translation-function/essentials#overview-options)
-sethtml | false | set the translation text as innerHtml -> allows you to have html in translations
-css | undefined | pass down a css function to use
-...rest | undefined | allows you to pass down any other prop to element eg. pass down the prop `class` to define a class
+
+| name | default | description |
+| ------------- | ------------- | ------------- |
+| ele | span | the element to render |
+| key | undefined | the translation key to lookup |
+| options | undefined | t options see [docs](https://www.i18next.com/translation-function/essentials#overview-options) |
+| sethtml | false | set the translation text as innerHtml -> allows you to have html in translations |
+| css | undefined | pass down a css function to use |
+| ...rest | undefined | allows you to pass down any other prop to element eg. pass down the prop `class` to define a class |
 
 ---
 
