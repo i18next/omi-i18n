@@ -2,6 +2,13 @@
 
 This is a i18n implementation to be used with [omi.js](https://github.com/Tencent/omi/blob/master/packages/omi-element-ui/src/omi-element-ui/el-radio/index.js) and is based on [i18next](https://www.i18next.com) internationalization framework.
 
+# What's the benefit of using i18next
+
+- Your team can choose between a growing number of i18n formats [i18next JSON](https://www.i18next.com/misc/json-format), [ICU](https://github.com/i18next/i18next-icu), [mozilla's fluent](https://github.com/i18next/i18next-fluent) or [airbnb's polyglot](https://github.com/i18next/i18next-polyglot)
+- There are tons of plugins and utils to get your work done: https://www.i18next.com/overview/plugins-and-utils
+- Learn once - translate everywhere: https://www.i18next.com/overview/supported-frameworks
+- With [locize](https://locize.com) you get the best continuous localization tool out there
+
 # Getting started
 
 Source can be loaded via [npm](https://www.npmjs.com/package/omi-i18n) or [downloaded](https://github.com/i18next/omi-i18n/blob/master/omi-i18n.min.js) from this repo.
